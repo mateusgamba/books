@@ -1,0 +1,1 @@
+var appBooks = angular.module('appBooks', []);

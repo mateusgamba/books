@@ -1,0 +1,90 @@
+/* Footer Fixed
+========================================================================== */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Helpers
+========================================================================== */
+.margin-left-15 {
+    margin-left:15px !important;
+}
+
+.btn-1rem {
+    padding: 0 1rem;
+}
+.space20 {
+    padding-bottom: 20px;
+}
+
+/* Collection
+========================================================================== */
+ul.collection-books li.collection-item:not(.active):hover {
+    background-color: #dddddd;
+}
+
+/* Card
+========================================================================== */
+.card-filters .card .card-content {
+    padding: 20px 20px 1px 20px !important;
+}
+
+/* Form (inputs / labels)
+========================================================================== */
+
+/**
+ * label
+ */
+.input-field label {
+    color: #000;
+    font-size:13px;
+}
+
+/**
+ * label active
+ */
+.input-field label.active {
+    font-size: 0.9rem;
+    margin: 1px !important;
+}
+
+/**
+ * label focus color
+ */
+.input-field input[type=number]:focus + label,
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+
+/**
+ * label underline focus color
+ */
+.input-field input[type=number]:focus,
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/**
+ * icon prefix focus color
+ */
+.input-field .prefix.active {
+    color: #000;
+}
+
+label.font-13 {
+    color: #000;
+    font-size:13px;
+}
+
+/* Buttons
+========================================================================== */
+.btn-block {
+    width:100%;
+}
