@@ -4,7 +4,7 @@ Está aplicação consiste em um serviço de cadastro e ordenação de livros.
 
 Utilize a aplicação baixando clicando aqui ou pelo comando:
 ```
-https://github.com/mateusgamba/books.git
+git pull https://github.com/mateusgamba/books.git
 ```
 Após o download é necessário basta abrir o arquivo index.html em seu navegador,
 
